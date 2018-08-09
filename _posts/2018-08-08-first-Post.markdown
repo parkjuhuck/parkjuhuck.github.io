@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "first Post"
+title:  "첫 글"
 date:   2018-08-08
 ---
 
