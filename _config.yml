@@ -13,12 +13,12 @@ paginate: 5
 navigation:
  - title: Home
    url: /index.html
- - title: Javascript
-   url: /javascript  
- - title: About
+ - title: 자바스크립트
    url: /about
- - title: Contact
+ - title: 알고리즘
    url: /contact
+ - title: 소개글 
+   url: /about
 
 social:
    github: brianmaierjr

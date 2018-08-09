@@ -1,24 +1,24 @@
 ---
 layout: default
-title: About Long Haul
+title: About Park
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
+	<h1 class="pageTitle">About Park</h1>
+	<img src="{{ '/assets/img/diet.jpg' | prepend: site.baseurl }}" alt="다이어트" style='height:800px; weight:1200px'>
+	<p class="intro" style='width:100%'>블로그를 드디어 만들었다. 필자는 신입개발자를 꿈꾸고 있는 청년이다.</p>
+	<p style='width:100%'>개인 공부를 하면서 블로그를 만들게 됐다. (솔직히 만들기만 해놓고 귀찮아서 쓰지 않았다.)</p>
+	<h2>무엇을 게시할까..?</h2>
+	<ul>	
+		<li>알고리즘</li>
+		<li>Javascript</li>
+		<li>Vue</li>
+		<li>Mongodb</li>
+		<li>일기</li>
+		<li>잡동사니 등등</li>
+	</ul>
+	<p><strong>대략적으로 이렇다.</strong></p>	
+	<hr>
+	<p>필자는 요즘 다이어트 중이다. 너무 배가 고프다. 화가난다.</p>
+	<img src="{{ '/assets/img/gogi.jpg' | prepend: site.baseurl }}" alt="고기" style='height:800px; weight:1200px'>
 </div>
