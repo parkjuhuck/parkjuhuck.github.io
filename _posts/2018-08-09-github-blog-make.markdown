@@ -7,10 +7,53 @@ date:   2018-08-09
 <br>
 <br>
 
+<h3 style='width: 100%;'>들어가기 전</h3>
+
+필자의 첫 블로그 글이다.
+
+포스트를 작성하기 전 직접 블로그를 만들기 전까지
+
+필자는 많은 삽질을 하고나서 이 글을 작성하였다.
+
+포스트를 작성하면서도 이 부분을 넣어야 되나 빼야되나 
+
+생각이 많았다.
+
+금방 쓸줄알았는데 생각보다 훨훨훨 씬 많은 시간이 걸렸다.
+
+필자는 git을 잘 모른다. 
+
+독학으로 해왔기 때문에 그냥 commit, push, branch 사용법 정도
+
+그리고 소스트리를 쓴다.
+
+이 글을 보는 사람들 중 git을 모르는 사람이 있으면 어쩌지 
+
+소스트리를 사용안하는 사람들은..? 
+
+터미널이 뭔지 모르는 사람이면..?
+
+어느정도 수준으로 써야 되는거지 감이 잘 오지않았다.
+
+이 글을 이해하려면 최소한 git을 사용해 본 사람  clone,commit,push 
+
+로컬환경, github를 왜 사용하는지 정도 알아야하지 싶다.
+
+<br> 
+<hr>
+<br>
+
+
+
+
+<br>
+<br>
+
 <h3 style='width: 100%;'>목표</h3>
 <div>
   <label style='font-size:25px;'>&nbsp;&nbsp; 1. github로 블로그 생성</label>
   <label style='font-size:25px;'>&nbsp;&nbsp; 2. jekyll 테마 적용</label>
+  <label style='font-size:25px;'>&nbsp;&nbsp; 3. 로컬 환경 테스트 </label>
 </div>
 
 <br> 
@@ -35,7 +78,7 @@ Jekyll은 마크다운을 베이스로 정적 HTML 웹사이트를 만들어주�
 
 Jekyll은 Ruby기반으로 만들어졌다.
 
-로컬에서 테스트하기 위해서는 Ruby를 설치해야한다(필수는 아니다.)
+로컬에서 테스트하기 위해서는 Ruby를 설치해야한다.
 
 
 <br>
@@ -64,7 +107,7 @@ Jekyll은 Ruby기반으로 만들어졌다.
 <hr>
 <br>
 
-<div style='width: 100%;'>2. 본인 컴퓨터에 블로그 글들을 환경을 구축하자.</div>
+<div style='width: 100%;'>2. 본인 컴퓨터에 블로그를 관리할 환경을 구축하자.</div>
 
 <figure>
 	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t2.png' | prepend: site.baseurl }}" alt=""> 
@@ -106,6 +149,15 @@ D:\project 폴더에 blog 폴더를 만들어 관리할것이다.
 
 본인 환경에 index.html을 만들고 git push를 한다.
 
+<pre class="highlight">
+  <code>
+    $git status
+    $git add *
+    $git commit -m "템플릿 적용"
+    $git push origin master
+  </code>
+</pre>
+
 <figure>
 	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t4.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> 블로그 확인 </figcaption>
@@ -116,10 +168,90 @@ D:\project 폴더에 blog 폴더를 만들어 관리할것이다.
   [본인 Github 아이디].github.io 입력하고 확인해보면 출력화면이 확인할 수 있다.
 </p>
 
-
 <br>
 <hr>
 <br>
+
+<div style='width: 100%;'>4. Jekyll 테마를 적용시켜보자</div>
+<br>
+
+<a href=" http://jekyllthemes.org/" target="_blank" > 테마 페이지</a> 여기서 원하는 테마를 선택한다.
+
+<figure>
+	<img style='width:1200px; height:600px;' src="{{ '/assets/img/post/t5.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption> jekyllthemes 메인화면 </figcaption>
+</figure>
+
+<p style='font-size:20px;'>
+수많은 테마들이 있다 필자는 <a href="http://jekyllthemes.org/themes/long-haul/" target="_blank" > Long Haul </a> 테마를 선택하였다. (딱히 이유는 없다.)
+</p>
+
+<figure>
+	<img style='width:1200px; height:600px;' src="{{ '/assets/img/post/t6.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption> Long Haul 메인화면 </figcaption>
+</figure>
+
+테마를 선택하고 Demo를 클릭! 
+
+Detail한 화면을 확인하고 최종적으로 고르길 바란다.
+
+최종적으로 선택했다면 적용시키는 방법은 여러가지가 있다. 
+
+1. fork 
+2. download 
+
+원리는 둘다 똑같다. 본인 로컬환경에 clone 하여 적용시키는 것이다.
+
+<br>
+<div style='width: 100%;'>4-1. fork</div>
+
+Long Haul 메인화면에 HomePage를 클릭하여 페이지에 들어간다.
+
+<figure>
+	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t7.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption> Long Haul Github 페이지 </figcaption>
+</figure>
+
+빨간색 표시되어있는 fork를 클릭.
+
+<figure>
+	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t8.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption> Long Haul Github 페이지 </figcaption>
+</figure>
+
+빨간색 표시되어있는 setting를 클릭.
+
+
+<figure>
+	<img style='width:1200px; height:300px;' src="{{ '/assets/img/post/t9.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption> setting 페이지 </figcaption>
+</figure>
+
+<strong> 1.레파지토리 생성 </strong> 했을떄 이름과 같이 설정해주면 된다.
+
+필자는 이미 같은 이름을 가진 레파지토리가 있다.
+
+레파지토리 생성전에 사용하는 방식이다 
+
+필자도 블로그를 작성하면서 알게되었다. 
+
+그래서 쓸까말까 하다 추가하게 되었다. 알아두자.
+
+가장 간단한 방법이다.
+
+레파지토리 이름 ->   [본인 Github 아이디].github.io 설정 후 
+
+블로그를 확인해보면 테마가 적용된 것을 확인할 수 있다.
+
+<div style='width: 100%;'>4-2. download</div>
+<br>
+
+Long Haul 메인화면에서 소스를 다운받아 로컬 환경에 붙여넣고
+
+ git push를 하면 끝이다. 정말 간단하다. 
+
+
+
 
 
 <!-- 
