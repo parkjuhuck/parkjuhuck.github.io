@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "github + jekyll 개인블로그 생성"
+title:  "github 블러그 만들기 + jekyll 테마 적용"
 date:   2018-08-09
 ---
  
@@ -21,9 +21,7 @@ date:   2018-08-09
 
 금방 쓸줄알았는데 생각보다 훨훨훨 씬 많은 시간이 걸렸다.
 
-필자는 git을 잘 모른다. 
-
-독학으로 해왔기 때문에 그냥 commit, push, branch 사용법 정도
+필자는 git을 잘 모른다. 그냥 commit, push, branch 사용법 정도
 
 그리고 소스트리를 쓴다.
 
@@ -53,7 +51,6 @@ date:   2018-08-09
 <div>
   <label style='font-size:25px;'>&nbsp;&nbsp; 1. github로 블로그 생성</label>
   <label style='font-size:25px;'>&nbsp;&nbsp; 2. jekyll 테마 적용</label>
-  <label style='font-size:25px;'>&nbsp;&nbsp; 3. 로컬 환경 테스트 </label>
 </div>
 
 <br> 
@@ -64,22 +61,7 @@ date:   2018-08-09
 <div style='width: 100%;'>
   <label><strong>&nbsp;&nbsp; - Git 설치</strong> : <a href="http://msysgit.github.com/" target="_blank" > Windows(링크)</a>, <a href="http://sourceforge.net/projects/git-osx-installer/" target="_blank" >Mac(링크)</a></label>
   <label><strong>&nbsp;&nbsp; - Github 계정</strong></label>
-  <label><strong>&nbsp;&nbsp; - Ruby </strong> : <a href="https://rubyinstaller.org/" target="_blank" > Windows(링크)</a></label>
-  <label><strong>&nbsp;&nbsp; - Jekyll</strong></label>
-  <label class="highlighter-rouge">
-    <pre class="highlight"><code><strong>Mac -> </strong> sudo gem install jekyll bundler</code></pre>
-    <pre class="highlight"><code><strong>Window -> </strong> gem install jekyll bundler</code></pre>
-  </label>
 </div>
-
-<br>
-
-Jekyll은 마크다운을 베이스로 정적 HTML 웹사이트를 만들어주는 툴이다.
-
-Jekyll은 Ruby기반으로 만들어졌다.
-
-로컬에서 테스트하기 위해서는 Ruby를 설치해야한다.
-
 
 <br>
 <hr>
@@ -251,7 +233,11 @@ Long Haul 메인화면에서 소스를 다운받아 로컬 환경에 붙여넣�
  git push를 하면 끝이다. 정말 간단하다. 
 
 
-
+<hr>
+<br>
+<strong>다음 장엔 jekyll로 블로그 생성 및  어떻게 글을 작성하고 </strong> 
+<br>
+<strong>테스트 하는지에 대해 알아보겠다. </strong> 
 
 
 <!-- 
