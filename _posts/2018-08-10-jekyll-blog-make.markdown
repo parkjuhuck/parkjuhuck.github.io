@@ -72,7 +72,7 @@ Ruby를 설치했다면 Start Command Prompt with Ruby를 열자
 <br>
 
 <div style='width: 100%;'>2. jekyll로 블로그 생성하기.</div>
-
+<br>
 <div>
     <label class="highlighter-rouge">
         <pre class="highlight"><code>$ jekyll new '블로그이름'</code></pre>
@@ -100,7 +100,7 @@ testBlog 폴더안을 보면
 <br>
 
 <div style='width: 100%;'>3. 블로그 실행. </div>
-
+<br>
 <div>
     <label class="highlighter-rouge">
         <pre class="highlight"><code>$ bundle exec jekyll serve</code></pre>
@@ -172,7 +172,7 @@ bundle을 설치하고 실행을 시켜주자.
 <br>
 
 <div style='width: 100%;'>4. 포스팅 하기.</div>
-
+<br>
 <figure>
 	<img style='width:500px;' src="{{ '/assets/img/post/b2/t8.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>그림8 jekyll 블로그 구성요소 </figcaption>

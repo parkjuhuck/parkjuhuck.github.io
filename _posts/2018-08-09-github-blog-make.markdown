@@ -70,7 +70,7 @@ date:   2018-08-09
 <div style='width: 100%;'>1. 레지파지토리를 생성하자</div>
 
 <figure>
-	<img style='width:1200px;' src="{{ '/assets/img/post/t1.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px;' src="{{ '/assets/img/post/b1/t1.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> 새로운 레파지토리 생성</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ date:   2018-08-09
 <div style='width: 100%;'>2. 본인 컴퓨터에 블로그를 관리할 환경을 구축하자.</div>
 
 <figure>
-	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t2.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/b1/t2.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> 내 저장소 링크 </figcaption>
 </figure>
 
@@ -121,7 +121,7 @@ D:\project 폴더에 blog 폴더를 만들어 관리할것이다.
 <div style='width: 100%;'>3. 간단한 테스트 ( index.html 생성 ) </div>
 
 <figure>
-	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t3.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/b1/t3.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> index.html 생성 </figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ D:\project 폴더에 blog 폴더를 만들어 관리할것이다.
 </pre>
 
 <figure>
-	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t4.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/b1/t4.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> 블로그 확인 </figcaption>
 </figure>
 
@@ -159,7 +159,7 @@ D:\project 폴더에 blog 폴더를 만들어 관리할것이다.
 <a href=" http://jekyllthemes.org/" target="_blank" > 테마 페이지</a> 여기서 원하는 테마를 선택한다.
 
 <figure>
-	<img style='width:1200px; height:600px;' src="{{ '/assets/img/post/t5.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px; height:600px;' src="{{ '/assets/img/post/b1/t5.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> jekyllthemes 메인화면 </figcaption>
 </figure>
 
@@ -168,7 +168,7 @@ D:\project 폴더에 blog 폴더를 만들어 관리할것이다.
 </p>
 
 <figure>
-	<img style='width:1200px; height:600px;' src="{{ '/assets/img/post/t6.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px; height:600px;' src="{{ '/assets/img/post/b1/t6.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> Long Haul 메인화면 </figcaption>
 </figure>
 
@@ -189,14 +189,14 @@ Detail한 화면을 확인하고 최종적으로 고르길 바란다.
 Long Haul 메인화면에 HomePage를 클릭하여 페이지에 들어간다.
 
 <figure>
-	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t7.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/b1/t7.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> Long Haul Github 페이지 </figcaption>
 </figure>
 
 빨간색 표시되어있는 fork를 클릭.
 
 <figure>
-	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/t8.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px; height:200px;' src="{{ '/assets/img/post/b1/t8.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> Long Haul Github 페이지 </figcaption>
 </figure>
 
@@ -204,7 +204,7 @@ Long Haul 메인화면에 HomePage를 클릭하여 페이지에 들어간다.
 
 
 <figure>
-	<img style='width:1200px; height:300px;' src="{{ '/assets/img/post/t9.png' | prepend: site.baseurl }}" alt=""> 
+	<img style='width:1200px; height:300px;' src="{{ '/assets/img/post/b1/t9.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption> setting 페이지 </figcaption>
 </figure>
 
