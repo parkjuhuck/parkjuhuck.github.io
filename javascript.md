@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Long Haul
+title: 자바스크립트
 ---
 
 <div class="home" id="home">
