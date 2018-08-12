@@ -1,11 +1,23 @@
 ---
 layout: post
-title:  "github 블러그 만들기 + jekyll 테마 적용"
+title:  "github 블로그 만들기 + jekyll 테마 적용"
 date:   2018-08-09
 ---
  
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:github 블로그 만들기 jekyll 테마 적용" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+<meta property="og:github 블로그 만들기 jekyll 테마 적용" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+<meta property="og:image" content="{{ site.url }}/images/songyunseop.jpeg"/>
+<meta property="og:image:width" content="420" />
+<meta property="og:image:height" content="420" />
+<meta property="og:image:type" content="image/png">
+
+
+
+
 
 <br>
 <br>
