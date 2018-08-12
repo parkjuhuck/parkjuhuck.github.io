@@ -1,24 +1,9 @@
 ---
 layout: post
-title:  "github 블로그 만들기 + jekyll 테마 적용"
+title:  "1. github 블로그 만들기 + jekyll 테마 적용"
 date:   2018-08-09
 ---
  
-<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:github 블로그 만들기 jekyll 테마 적용" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-<meta property="og:github 블로그 만들기 jekyll 테마 적용" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %">
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
-<meta property="og:image" content="{{ site.url }}/images/songyunseop.jpeg"/>
-<meta property="og:image:width" content="420" />
-<meta property="og:image:height" content="420" />
-<meta property="og:image:type" content="image/png">
-
-
-
-
-
 <br>
 <br>
 <h3 style='width: 100%;'>들어가기 전</h3>
@@ -191,12 +176,12 @@ D:\project 폴더에 blog 폴더를 만들어 관리할것이다.
 
 Detail한 화면을 확인하고 최종적으로 고르길 바란다.
 
-최종적으로 선택했다면 적용시키는 방법은 여러가지가 있다. 
+최종적으로 선택했다면 적용을 시켜보자.
 
 1. fork 
 2. download 
 
-원리는 둘다 똑같다. 본인 로컬환경에 clone 하여 적용시키는 것이다.
+
 
 <br>
 <div style='width: 100%;'>4-1. fork</div>
@@ -244,55 +229,21 @@ Long Haul 메인화면에 HomePage를 클릭하여 페이지에 들어간다.
 
 Long Haul 메인화면에서 소스를 다운받아 로컬 환경에 붙여넣고
 
- git push를 하면 끝이다. 정말 간단하다. 
+github에 업데이트 하면 끝이다. 아주 간단하다.
 
+블로그를 확인해보면 
+
+<figure>
+	<img style='width:1200px;' src="{{ '/assets/img/post/b1/t10.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption> 테마가 적용된 블로그 </figcaption>
+</figure>
+
+테마가 적용된것을 확인 할 수 있다.
 
 <hr>
 <br>
+
 <strong>다음 장엔 jekyll로 블로그 생성 및  어떻게 글을 작성하고 </strong> 
 <br>
+<br>
 <strong>테스트 하는지에 대해 알아보겠다. </strong> 
-
-
-<!-- 
-{% highlight html %}
-<figure>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig1. - This is an example figcaption</figcaption>
-</figure>
-{% endhighlight %}
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %} -->
-
-
-<!-- Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com -->
-
-
-
-<!-- <blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote> -->
-
-
-
-<!-- ## Unordered List
-* List Item
-* Longer List Item
-  * Nested List Item
-  * Nested Item
-* List Item
-
-## Definition List
-<dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl> -->

@@ -1,12 +1,17 @@
 ---
 layout: post
-title:  "javascript 란"
+title:  "javascript"
 date:   2018-08-12
 ---
  
-<br>
-<br>
-## Javascript
 
 <br>
+<br>
+<h3 style='width: 100%;'>들어가기 전</h3>
+<br>
+<p style='font-size:20px;'>Javascript 글 작성 준비</p>
+
+
+<br>
+<hr>
 <br>
