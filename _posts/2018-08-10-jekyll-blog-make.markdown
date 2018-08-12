@@ -3,6 +3,10 @@ layout: post
 title:  "jekyll로 블로그 만들기"
 date:   2018-08-10
 ---
+
+<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
 <br>
 <br>
 <h3 style='width: 100%;'>들어가기 전</h3>

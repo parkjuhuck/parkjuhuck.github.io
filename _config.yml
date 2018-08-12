@@ -20,6 +20,17 @@ navigation:
  - title: 소개글 
    url: /about
 
+collections:
+  javascript:
+    output: true
+  algorithm:
+    output: true
+
+  
+
+
+
+
 social:
    github: brianmaierjr
    twitter: brianmaierjr
