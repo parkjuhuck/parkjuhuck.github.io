@@ -1,12 +1,12 @@
 ---
 layout: default
-title: JH Park
+title: Long Haul
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle"> 최근 Posts</h1>
+  <h1 class="pageTitle"> 자바스크립트 </h1>
   <ul class="posts noList">
-    {% for post in paginator.posts %}
+    {% for post in paginator.javascript %}
       <li>
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
