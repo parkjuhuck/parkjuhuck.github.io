@@ -227,28 +227,4 @@ _post엔 하나의 글만 있다.
 <strong style='font-size:20px;'>jekyll 의 더 자세히 사용하려면   <a href=" https://jekyllrb-ko.github.io/docs/home/" target="_blank" > jekyll </a> 공식사이트를 참고는 필수다!. </strong> 
 <br>
 
-
-<!-- 주의 할 점은 이름은 반드시 [본인 Github 아이디].github.io 이어야 한다. -->
-
-<!-- <p style='font-size:20px;'>
-  필자의 Github 아이디는 parkjuhuck이기 때문에 parkjuhuck.github.io로 만들었다.
-</p> -->
-
-
-<!-- 이로써 Github 블로그는 만들어졌다. 아무것도 안되어있을 뿐이다.  -->
-
-<!-- <br>
-<hr>
-<br> -->
-
-<!-- <pre class="highlight">
-  <code>
-    $cd D:\project\blog
-    $git remote add origin [내 저장소 링크]
-    $git add .
-    $git commit -m "빈 저장소 불러오기"
-    $git push origin master
-  </code>
-</pre> -->
-
-<!-- <a href=" http://jekyllthemes.org/" target="_blank" > 테마 페이지</a> 여기서 원하는 테마를 선택한다. -->
+{% include disqus_comments.html %}

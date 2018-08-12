@@ -247,3 +247,5 @@ github에 업데이트 하면 끝이다. 아주 간단하다.
 <br>
 <br>
 <strong>테스트 하는지에 대해 알아보겠다. </strong> 
+
+{% include disqus_comments.html %}
