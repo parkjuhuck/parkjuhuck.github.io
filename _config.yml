@@ -15,16 +15,27 @@ navigation:
    url: /index.html
  - title: 자바스크립트
    url: /javascript
+#  - title: Vue
+#    url: /vue
+#  - title: 노드
+#    url: /node
+#  - title: MongoDB
+#    url: /mongo
  - title: 알고리즘
    url: /algorithm
+ - title: 기타
+   url: /etc
  - title: 소개글 
    url: /about
+
 
 collections:
   javascript:
     output: true
   algorithm:
     output: true
+  etc:
+    output: true  
 
 disqus_rul: https://https-parkjuhuck-github-io.disqus.com/
 disqus_id : disqus_vXLrpPF6tF
