@@ -227,4 +227,3 @@ _post엔 하나의 글만 있다.
 <strong style='font-size:20px;'>jekyll 의 더 자세히 사용하려면   <a href=" https://jekyllrb-ko.github.io/docs/home/" target="_blank" > jekyll </a> 공식사이트를 참고는 필수다!. </strong> 
 <br>
 
-{% include disqus_comments.html %}
