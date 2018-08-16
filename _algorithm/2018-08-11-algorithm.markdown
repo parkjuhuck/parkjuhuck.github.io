@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "algorithm 란"
-date:   2018-08-12
+title:  "algorithm hi"
+date:   2018-08-11
 ---
 
 <br>
