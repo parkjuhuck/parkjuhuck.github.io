@@ -12,7 +12,7 @@ date:   2018-08-16
     <label style='font-size: 30px; font-weight:blod; color:green;'><strong>정의</strong></label>
     <strong>&nbsp;&nbsp;&nbsp;- 프로그래밍에서 다른 값과 동일하게 처리되는 값.</strong> <br>
     <strong>&nbsp;&nbsp;&nbsp;- 함수를 값으로 다를수 있는 개념 </strong> <br>
-    <strong>&nbsp;&nbsp;&nbsp;- 스스로 객체로 취급되는 함수 (일급객체) ."</strong> <br>
+    <strong>&nbsp;&nbsp;&nbsp;- 스스로 객체로 취급되는 함수 (일급객체) </strong> <br>
     <br> 
     <label style='font-size: 30px; font-weight:blod; color:green;'><strong>특징</strong></label>
     &nbsp;&nbsp;&nbsp; - 변수에 값(함수)을 할당 할 수 있다.<br>
@@ -103,9 +103,9 @@ date:   2018-08-16
 </pre>
 
 <p style='width: 100%; font-size:20px; font-weight:bold;'>
-  &nbsp;&nbsp;&nbsp;필자는 저 코드를 한번에 이해하지 못했다. 응? 뭐야 호출했는데 왜 또 변수를 호출하지?<br>
+  &nbsp;&nbsp;&nbsp;필자는 저 코드를 한번에 이해하지 못했다. 눈으로만 코드를 해석해서였고 코드자체가 생소했다. <br>
   <br>
-  &nbsp;&nbsp;&nbsp;라고 생각했던거 같다.(기억이 안난다) <br>
+  &nbsp;&nbsp;&nbsp;직접 코드를 치고 확인하고 나서야 이해가 됐다. <br>
   <br>
   &nbsp;&nbsp;&nbsp; add_maker 함수는 return 값으로 함수(값)를 호출하지 않고 반환! 한다.<br>
   <br>

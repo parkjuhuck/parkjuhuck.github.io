@@ -15,8 +15,8 @@ navigation:
    url: /index.html
  - title: 자바스크립트
    url: /javascript
-#  - title: Vue
-#    url: /vue
+ - title: Vue
+   url: /vue
 #  - title: 노드
 #    url: /node
 #  - title: MongoDB
@@ -31,6 +31,8 @@ navigation:
 
 collections:
   javascript:
+    output: true
+  vue:
     output: true
   algorithm:
     output: true
