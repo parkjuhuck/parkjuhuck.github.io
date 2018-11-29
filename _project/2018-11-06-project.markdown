@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "프로젝트 (21gram)"
+title:  "프로젝트 (외주)"
 date:   2018-11-04
 ---
  
 <br>
 <br>
-<h3 style='width: 100%;'>21gram</h3>
+<h3 style='width: 100%;'>외주프로젝트</h3>
 <br>
 
 필자는 최근 외주팀에 합류하게 되었다. 
 
 개발경험과 협업경험이 필요했던 필자에게 좋은 기회였다.
 
-서비스는 21gram이라는 반려동물 장례서비스다
+서비스는 반려동물 장례서비스다. ( 업체명은 노출 x )
 
 기술스펙 Vue(Nuxt + typesciprt) + Node + Aws 아주 좋다.
 
