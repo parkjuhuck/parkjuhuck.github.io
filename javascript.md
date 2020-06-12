@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 자바스크립트
+title: 함수형 자바스크립트
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle"> 자바스크립트 </h1>
+  <h1 class="pageTitle"> 함수형 자바스크립트 </h1>
   
   <ul class="posts noList">
     <br><br><div>  
@@ -18,6 +18,7 @@ title: 자바스크립트
         <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
       </li>
     {% endfor %}
+
   </ul>
   <!-- Pagination links -->
   <div class="pagination">
