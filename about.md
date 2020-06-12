@@ -12,6 +12,8 @@ title: About Park
 	<ul>	
 		<li>알고리즘</li>
 		<li>Javascript</li>
+		<li>Vue</li>
+		<li>Mongodb</li>
 		<li>일기</li>
 		<li>잡동사니 등등</li>
 	</ul>
