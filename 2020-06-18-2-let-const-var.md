@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "실행컨텍스트"
-date: 2020-06-13
+title: "let,const,var"
+date: 2020-06-18
 ---
 
 <style>
@@ -10,6 +10,7 @@ date: 2020-06-13
     font-size:16px;
     width:100% !important;
   }
+  
   li {
     list-style-type : none;
   }
@@ -20,6 +21,7 @@ date: 2020-06-13
     height: 122px;
     font-size:15px;
   }
+
   .inline {
     display: inline!important;
   }
@@ -46,9 +48,7 @@ pre[class*="language-"]>code { position: relative; border-left: 10px solid #358c
 </style>
 
 <br>
-<p>렉시컬 스코핑(lexical scoping)린 코드를 작성할때 변수를 어디에 작성하는가를 바탕으로 스코프가 결정되는 것 입니다.</p>
+<p>let,const,var의 차이를 알고있느냐? 라는 면접질문을 여러번 받았었다. 이건 자바스크립트 개발자라면 100퍼센트 알거라고 생각한다. 
+요즘 자바스크립트 개념 공부 및 블로그를 작성해보니 이 질문을 건넨 면접자의 의도는 단순히 개념을 알고있는냐가 아닌 스코프와 호이스팅의 개념을 어느정도 깊이있게 알고있는가 라는 생각이 들었다.
+</p>
 <hr/>
-
-<h5>렉시컬 스코핑(lexical scoping)</h5>
-
-<p><strong>스코프</strong>는 함수를 호출할 때가 아니라 <strong>선언</strong>할 때 생깁니다.</p>
